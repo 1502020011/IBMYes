@@ -1,0 +1,34 @@
+{
+  "outbounds":[
+    {
+      "protocol":"vless",
+      "settings":{
+        "vnext":[
+          {
+            "address":"104.17.188.91",
+            "port":443,
+            "users":[
+              {
+                "id":"d75c8c39-7351-4d96-9fae-69af3c72a9bd"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings":{
+        "network":"h2",
+        "security":"tls",
+        "httpSettings":{
+          "host":[
+            "sparkling-bonus-9e64.aaii83.workers.dev"
+          ],
+          "path":"freeipv6"
+        },
+		"tlsSettings":{
+			"serverName":"sparkling-bonus-9e64.aaii83.workers.dev",
+			"allowInsecureCiphers":true
+		}
+      }
+    }
+  ]
+}
