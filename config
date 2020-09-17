@@ -9,7 +9,8 @@
             "port":443,
             "users":[
               {
-                "id":"d75c8c39-7351-4d96-9fae-69af3c72a9bd"
+                "id":"d75c8c39-7351-4d96-9fae-69af3c72a9bd",
+		"encryption": "none"
               }
             ]
           }
